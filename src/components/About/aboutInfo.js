@@ -4,6 +4,7 @@ import pd from "../../assets/resume/Shefy_Fullstackdeveloper.pdf"
 import Services from "../Services";
 import Skills from "../Skills";
 import { FaHandPointDown } from "react-icons/fa";
+import history from "../history";
 // import "./style.css"
 /**
  * @author
@@ -59,7 +60,7 @@ const AboutInfo = (props) => {
               <FaHandPointDown/>
               </p>
               <a target ="_blank" rel="noreferrer" href={pd} className="button uppercase">Download Resume</a>
-              <a href="/contact" className="button uppercase">Contact Me</a>
+              <a href className="button uppercase" onClick={() => history.push('/contact')}>Contact Me</a>
             </div>
           </div>
         </div>

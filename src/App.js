@@ -6,10 +6,11 @@ import Contact from "./components/Contact/index"
 import Footer from "./components/Footer/index"
 import AOS from "aos";
 import "aos/dist/aos.css"
-import { Switch, Route , BrowserRouter as Router} from "react-router-dom";
+import { Switch, Route , Router} from "react-router-dom";
 import Home from "./components/Home";
 import ScrollToTop from "./components/scrollToTop";
 import AboutInfo from "./components/About/aboutInfo";
+import history from "./components/history";
 /**
  * @author
  * @function App
@@ -57,7 +58,7 @@ const App = (props) => {
       <Footer />
     </div> */
     <>
-      <Router>
+      <Router history={history}>
         <Header />
         <ScrollToTop />
         <Switch>

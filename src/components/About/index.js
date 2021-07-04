@@ -1,9 +1,15 @@
 import React from "react";
 import me from "../../assets/img/profile1-img.jpeg"
 import pd from "../../assets/resume/Shefy_Fullstackdeveloper.pdf"
-
+import history from "../history";
+//import Contact from "../Contact";
 
 const About = (props) => {
+
+
+  // const [show1, setShow1] = useState(false);
+  // const handleClick = () => setShow1(true);
+
     return (
     
         <section id="about" className="about">
@@ -48,7 +54,8 @@ const About = (props) => {
               A more detailed look at my professional capabilities and experience is available in my resume.
               </p> */}
               <a target ="_blank" rel="noreferrer" href={pd} className="button uppercase">Download Resume</a>
-              <a href="/about" className="button uppercase">Read More About Me</a>
+              <a href className="button uppercase" onClick={() => history.push('/about')}
+              >Read More About Me</a>
             </div>
           </div>
         </div>
