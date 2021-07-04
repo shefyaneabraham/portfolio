@@ -1,8 +1,6 @@
 import React from "react";
 import me from "../../assets/img/profile1-img.jpeg"
 import pd from "../../assets/resume/Shefy_Fullstackdeveloper.pdf"
-import Services from "../Services";
-import Skills from "../Skills";
 
 
 const About = (props) => {
@@ -49,7 +47,7 @@ const About = (props) => {
               Currently, I'm a Fullstack developer for Kognoz Technologies in Bengaluru, India.
               A more detailed look at my professional capabilities and experience is available in my resume.
               </p> */}
-              <a target ="_blank" href={pd} className="button uppercase">Download Resume</a>
+              <a target ="_blank" rel="noreferrer" href={pd} className="button uppercase">Download Resume</a>
               <a href="/about" className="button uppercase">Read More About Me</a>
             </div>
           </div>

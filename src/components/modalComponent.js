@@ -1,7 +1,6 @@
 
-import React, { useState } from "react";
-import { Modal, Button } from "react-bootstrap";
-import imagedetail from "../assets/img/portfolio/Portfolio-img.png"
+import React from "react";
+import { Modal} from "react-bootstrap";
 
 
 const ModalComponent = (props) => {
@@ -41,7 +40,7 @@ const ModalComponent = (props) => {
                 <li><strong>Category</strong>: {projectDetail.category}</li>
                 {/* <li><strong>Client</strong>: ASU Company</li> */}
                 <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a target ="_blank" href={'https://www.'+projectDetail.projectUrl}>{projectDetail.projectUrl}</a></li>
+                <li><strong>Project URL</strong>: <a target ="_blank" rel="noreferrer" href={'https://www.'+projectDetail.projectUrl}>{projectDetail.projectUrl}</a></li>
               </ul>
               {/* <h4>Detailed Description</h4> */}
               <p>

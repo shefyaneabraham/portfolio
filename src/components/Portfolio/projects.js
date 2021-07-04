@@ -7,10 +7,9 @@ import portfolio5 from "../../assets/img/portfolio/weather-img.jpeg"
 import portfolio6 from "../../assets/img/portfolio/iot-img.jpeg"
 import portfolio7 from "../../assets/img/portfolio/project-manage.jpeg"
 import portfolio8 from "../../assets/img/portfolio/hiperlearn-img.png"
-import details from "../../assets/img/portfolio/portfolio-details-1.jpg"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import ModalComponent from "../modalComponent";
-import { Button, ButtonToolbar } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 
 const Projects = (props) => {
@@ -40,7 +39,7 @@ const Projects = (props) => {
     const handleClose6 = () => setShow6(false);
     const handleClose7 = () => setShow7(false);
     const handleClose8 = () => setShow8(false);
-    const [data, setData] = useState({
+    const [data] = useState({
         details: [
             {
                 "id": "1",

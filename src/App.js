@@ -1,14 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "./components/Header/index"
-import Hero from "./components/Hero/index"
-import About from "./components/About/index"
-import Facts from "./components/Facts/index"
-import Skills from "./components/Skills/index"
 import Resume from "./components/Resume/index"
-import Portfolio from "./components/Portfolio/index"
 import Projects from "./components/Portfolio/projects"
-import Services from "./components/Services/index"
-import Testimonials from "./components/Testimonials/index"
 import Contact from "./components/Contact/index"
 import Footer from "./components/Footer/index"
 import AOS from "aos";

@@ -29,7 +29,7 @@ const Services = (props) => {
                   <i className='bx bxl-react' ></i>
                   
                 </div>
-                <h4><a target ="_blank" href={rc}>Modern React with Redux</a></h4>
+                <h4><a target ="_blank" rel="noreferrer" href={rc}>Modern React with Redux</a></h4>
                 <p>Udemy, 2021</p>
               </div>
             </div>
@@ -41,7 +41,7 @@ const Services = (props) => {
                   </svg> */}
                   <i class='bx bxl-nodejs'></i>
                 </div>
-                <h4><a target ="_blank" href={nc}>The Complete Node.js Developer Course(3rd Edition)</a></h4>
+                <h4><a target ="_blank" rel="noreferrer" href={nc}>The Complete Node.js Developer Course(3rd Edition)</a></h4>
                 <p>Udemy, 2020</p>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Services = (props) => {
                   </svg> */}
                   <i className="bx bx-tachometer" />
                 </div>
-                <h4><a target ="_blank" href={sc}>Go Java Fullstack with Springboot and Angular</a></h4>
+                <h4><a target ="_blank" rel="noreferrer" href={sc}>Go Java Fullstack with Springboot and Angular</a></h4>
                 <p>Udemy, 2020</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Services = (props) => {
                   </svg> */}
                   <i className="bx bx-layer" />
                 </div>
-                <h4><a target ="_blank" href={cc}>Introduction to GPU Computing with CUDA</a></h4>
+                <h4><a target ="_blank" rel="noreferrer" href={cc}>Introduction to GPU Computing with CUDA</a></h4>
                 <p>Udemy, 2018</p>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Services = (props) => {
                   </svg> */}
                   <i className="bx bx-slideshow" />
                 </div>
-                <h4><a target ="_blank" href={spc}>Spatial Data Science and Applications</a></h4>
+                <h4><a target ="_blank" rel="noreferrer" href={spc}>Spatial Data Science and Applications</a></h4>
                 <p>Yonsei University, Coursera, 2018</p>
               </div>
             </div>

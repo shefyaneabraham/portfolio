@@ -58,7 +58,7 @@ const AboutInfo = (props) => {
               Scroll Down! 
               <FaHandPointDown/>
               </p>
-              <a target ="_blank" href={pd} className="button uppercase">Download Resume</a>
+              <a target ="_blank" rel="noreferrer" href={pd} className="button uppercase">Download Resume</a>
               <a href="/contact" className="button uppercase">Contact Me</a>
             </div>
           </div>
