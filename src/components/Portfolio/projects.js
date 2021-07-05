@@ -43,75 +43,83 @@ const Projects = (props) => {
         details: [
             {
                 "id": "1",
-                "title": "Personal Portfolio Website",
-                "category": "Personal",
-                "projectDate": "",
-                "projectUrl": "google.com",
+                "title": "Personal Portfolio Website.",
+                "category": "Personal Project",
+                "techStack": "React JS, HTML, CSS",
+                "projectDate": "05 July, 2021",
+                "projectUrl": "shefyaneabraham.netlify.app/",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": ""
+                "description": "A personal portfolio website built using React JS. This site is going to be hub for all I have done and all I am about to do. Basically a life and work showcase. Checkout the URL for more information."
             },
             {
                 "id": "2",
                 "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "category": "Academic Project",
+                "techStack": "ML, NLP, Naive Bayes and SVM classifiers",
+                "projectDate": "19 September, 2018",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "A recommender system that shall detect the emotion of a person from the songs that he/she has been listening to and recommend a list of songs based on the current emotion level of the user in order to satisfy the user’s mood using naive Bayes and SVM classifiers."
             },
             {
                 "id": "3",
-                "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "title": "Detecting negative emotions from Social Media comments and messages using NLP and Machine Learning.",
+                "category": "Academic Project",
+                "techStack": "ML, NLP, Tf-idf",
+                "projectDate": "21 September, 2018",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "A deep learning model to detect the negative emotions from social networks and alert the user and take steps eliminating the negative user using Tf-idf to process the dataset and naive bayes for training the dataset."
             },
             {
                 "id": "4",
-                "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "title": "Hiperlearn Learning Platform.",
+                "category": "Professional Project",
+                "techStack": "React, Node JS, MySQL",
+                "projectDate": "15 July, 2021",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "Hiperlearn is a micro learning platform enabling high performance.It helps people learn, retain and implement knowledge in a productive manner and enables the creation of engaging, interactive and measurable microlearning experiences that help learners and organizations to achieve their goals."
             },
             {
                 "id": "5",
-                "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "title": "Using Neo4j for community graph: A case study",
+                "category": "Academic Project",
+                "techStack": "Neo4j, Ruby on Rails",
+                "projectDate": "14 November, 2018",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "A community database which stores the relationship between two people in a community and retrieve the relation between two random users if any."
             },
             {
                 "id": "6",
-                "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "title": "Weather Data Analysis and Prediction using Spark",
+                "category": "Academic Project",
+                "techStack": "Big Data, Spark",
+                "projectDate": "10 April, 2019",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "Analysis on the weather dataset and predict the average temperature, humidity and dew point of next year on the basis of the previous years."
             },
             {
                 "id": "7",
-                "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "title": "iMedBox for diabetes patients",
+                "category": "Academic Project",
+                "techStack": "IOT, Embedded C",
+                "projectDate": "6 April, 2019",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "A modern healthcare IoT system with an intelligent medicine box along with sensors for health monitoring and diagnosis."
             },
             {
                 "id": "8",
-                "title": "Song Recommender System based on Emotion Level of the Song using NLP and Machine Learning.",
-                "category": "Academic",
-                "projectDate": "",
+                "title": "Project Management System",
+                "category": "Professional Project",
+                "techStack": "Node JS, Angular, MongoDB",
+                "projectDate": "26 May, 2020",
                 "projectUrl": "",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "dcjdns"
+                "description": "A highly scalable Project Management and Tracking Tool with kanban boards responsible for optimizing agile development across an organization."
             },
         ]
     });

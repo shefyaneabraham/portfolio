@@ -6,8 +6,6 @@ import { Modal} from "react-bootstrap";
 const ModalComponent = (props) => {
 
     const projectDetail = props.data;
-    console.log(props.show) ;
-    console.log("Inside modal") ;
     if(!props.show){
       return null;
     }else{
@@ -31,16 +29,19 @@ const ModalComponent = (props) => {
           <div className="row">
             <div className="col-lg-8">
               <div className=" portfolio-details-carousel">
-                <img src={props.imageurl.default} style={{width:"100%", height:"400px"}} alt="" />
+                <img src={props.imageurl.default} alt="" />
                 </div>
             </div>
             <div className="col-lg-4 portfolio-info">
               <h4>Project Information</h4>
               <ul>
                 <li><strong>Category</strong>: {projectDetail.category}</li>
-                {/* <li><strong>Client</strong>: ASU Company</li> */}
+                <li><strong>Tech Stack</strong>: {projectDetail.techStack}</li>
                 <li><strong>Project date</strong>: 01 March, 2020</li>
+                {projectDetail.projectUrl? (
                 <li><strong>Project URL</strong>: <a target ="_blank" rel="noreferrer" href={'https://www.'+projectDetail.projectUrl}>{projectDetail.projectUrl}</a></li>
+                
+                ): (null)}
               </ul>
               {/* <h4>Detailed Description</h4> */}
               <p>
