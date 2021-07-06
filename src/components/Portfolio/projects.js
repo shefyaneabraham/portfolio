@@ -74,12 +74,12 @@ const Projects = (props) => {
             {
                 "id": "4",
                 "title": "Hiperlearn Learning Platform.",
-                "category": "Professional Project",
+                "category": "Professional Project for Kognoz Technologies",
                 "techStack": "React, Node JS, MySQL",
                 "projectDate": "15 July, 2021",
-                "projectUrl": "",
+                "projectUrl": "https://hiperlearn.com/",
                 "image": "/assets/img/portfolio/Portfolio-img.png",
-                "description": "Hiperlearn is a micro learning platform enabling high performance.It helps people learn, retain and implement knowledge in a productive manner and enables the creation of engaging, interactive and measurable microlearning experiences that help learners and organizations to achieve their goals."
+                "description": "Hiperlearn is a micro learning platform enabling high performance. It helps people learn, retain and implement knowledge in a productive manner and enables the creation of engaging, interactive and measurable microlearning experiences that help learners and organizations to achieve their goals."
             },
             {
                 "id": "5",
@@ -114,7 +114,7 @@ const Projects = (props) => {
             {
                 "id": "8",
                 "title": "Project Management System",
-                "category": "Professional Project",
+                "category": "Professional Project for Reliance Industries",
                 "techStack": "Node JS, Angular, MongoDB",
                 "projectDate": "26 May, 2020",
                 "projectUrl": "",
@@ -203,7 +203,7 @@ const Projects = (props) => {
                                     <h4>Detecting negative emotions from Social Media comments and messages using NLP and Machine Learning</h4>
                                     <p>Web</p>
                                     <div className="portfolio-links">
-                                     <Button className="link-btn"
+                                        <Button className="link-btn"
                                             onClick={handleShow3}
 
                                         >
@@ -227,7 +227,7 @@ const Projects = (props) => {
                                     <h4>Hiperlearn Learning Platform</h4>
                                     <p>Web</p>
                                     <div className="portfolio-links">
-                                     <Button className="link-btn"
+                                        <Button className="link-btn"
                                             onClick={handleShow4}
 
                                         >
@@ -250,7 +250,7 @@ const Projects = (props) => {
                                     <h4>Using Neo4j for community graph: A case study</h4>
                                     <p>Web</p>
                                     <div className="portfolio-links">
-                                     <Button className="link-btn"
+                                        <Button className="link-btn"
                                             onClick={handleShow5}
 
                                         >
@@ -273,7 +273,7 @@ const Projects = (props) => {
                                     <h4>Weather Data Analysis and Prediction using Spark</h4>
                                     <p>Web</p>
                                     <div className="portfolio-links">
-                                     <Button className="link-btn"
+                                        <Button className="link-btn"
                                             onClick={handleShow6}
 
                                         >
@@ -296,7 +296,7 @@ const Projects = (props) => {
                                     <h4>iMedBox for diabetes patients</h4>
                                     <p>Web</p>
                                     <div className="portfolio-links">
-                                     <Button className="link-btn"
+                                        <Button className="link-btn"
                                             onClick={handleShow7}
 
                                         >
@@ -319,7 +319,7 @@ const Projects = (props) => {
                                     <h4>Project Management System</h4>
                                     <p>Web</p>
                                     <div className="portfolio-links">
-                                     <Button className="link-btn"
+                                        <Button className="link-btn"
                                             onClick={handleShow8}
 
                                         >

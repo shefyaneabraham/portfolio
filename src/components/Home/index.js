@@ -9,11 +9,11 @@ import Resume from '../Resume';
 export default function Home() {
   return (
     <div>
-      <Hero/>
+      <Hero />
       <About />
-      <Resume/>
+      <Resume />
       <Portfolio />
-      <Contact />  
+      <Contact />
     </div>
   );
 }
