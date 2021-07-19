@@ -4,3 +4,9 @@
 ## Project Details
 
 A portfolio website built using React js. A clean design with full responsiveness and smooth scroll in the portfolio will make the scroll experience really elegant.
+
+## Project Requirement
+
+1. HTML, CSS
+1. JavaScript
+1. React 
