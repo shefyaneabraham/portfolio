@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../../assets/img/profileInfo-img.jpeg"
-import pd from "../../assets/resume/Shefy_Fullstackdeveloper.pdf"
+import pd from "../../assets/resume/ShefyAbraham_FullstackDeveloper_1+yr_exp.pdf"
 import Services from "../Services";
 import Skills from "../Skills";
 import { FaHandPointDown } from "react-icons/fa";
