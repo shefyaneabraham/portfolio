@@ -50,9 +50,9 @@ const Resume = (props) => {
               <h5>Jan. 2021 - Present</h5>
               <p><em>Kognoz Technologies Private Limited, Bengaluru, India</em></p>
               <ul>
-                <li>Involved in the development of a micro learning platform using Node.js, React and MySQL.</li>
-                <li>Developed various microservices using Node.js, Express, MySQL and Bookshelf.js.</li>
-                <li>Developed applications in Microsoft Power Apps canvas and model driven using Microsoft Dataverse, SQL.</li>
+                <li>Involved in the development of web application powered by Open edx using React/Redux for frontend and integrated Single sign‑on withAzure AD to achieve customer satisfaction.</li>
+                <li>Involved in the development of a micro learning platform as a Fullstack Developer using Node.js and Express.js for API development andReact/Redux for frontend.</li>
+                <li>Developed various microservices using Node.js and Express.js for API development and Bookshelf.js for Object Relational Mapping.</li>
                 <li>Involved in the development of chatbots using Microsoft Power Virtual Agents along with Power Automate for automation.</li>
               </ul>
             </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../../assets/img/profile1-img.jpeg"
-import pd from "../../assets/resume/ShefyAbraham_FullstackDeveloper_1+yr_exp.pdf"
+import pd from "../../assets/resume/Shefy_Abraham_Resume.pdf"
 import history from "../history";
 
 const About = (props) => {
