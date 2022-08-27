@@ -26,7 +26,7 @@ const AboutInfo = (props) => {
                 My job involves doing what I love, developing new websites and applications. I have experience building rich web applications and software from the scratch.
                 I’ve always sought out opportunities and challenges that are meaningful to me.
                 I absolutely love learning new things and taking on new challenges.
-                Currently, I'm a Fullstack developer for Kognoz Technologies in Bengaluru, India.
+                Currently, I'm working as a Software Developer for Khoros, India.
               </p>
               <p>
                 Wanna know more? A more detailed look at my professional capabilities and experience is available below.
