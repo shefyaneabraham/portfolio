@@ -25,15 +25,15 @@ const About = (props) => {
                   <li><i className="icofont-rounded-right" /> <strong>Birthday:</strong> 30 May 1996</li>
                   <li><i className="icofont-rounded-right" /> <strong>Pronouns:</strong> She/Her</li>
                   <li><i className="icofont-rounded-right" /> <strong>Website:</strong> shefyaneabraham.netlify.app</li>
-                  <li><i className="icofont-rounded-right" /> <strong>Experience:</strong> 1+ years</li>
+                  <li><i className="icofont-rounded-right" /> <strong>Experience:</strong> 3+ years</li>
                   <li><i className="icofont-rounded-right" /> <strong>City:</strong> Bengaluru, India</li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="icofont-rounded-right" /> <strong>Age:</strong> 25</li>
+                  <li><i className="icofont-rounded-right" /> <strong>Age:</strong> 26</li>
                   <li><i className="icofont-rounded-right" /> <strong>Nationality:</strong> Indian</li>
-                  <li><i className="icofont-rounded-right" /> <strong>Degree:</strong> Masters</li>
+                  <li><i className="icofont-rounded-right" /> <strong>Degree:</strong> Master of Technology</li>
                   <li><i className="icofont-rounded-right" /> <strong>Email:</strong> shefyaneabraham@gmail.com</li>
                   <li><i className="icofont-rounded-right" /> <strong>Freelance:</strong> Available</li>
                 </ul>

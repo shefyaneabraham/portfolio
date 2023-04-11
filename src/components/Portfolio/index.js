@@ -13,7 +13,7 @@ const Portfolio = (props) => {
     <section id="portfolio" className="portfolio section-bg">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>Portfolio</h2>
+          <h2>Projects</h2>
           <p>Below you can see some projects I've been working on lately.</p></div>
         <div className="row">
           <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay={100}>

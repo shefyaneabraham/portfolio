@@ -22,11 +22,16 @@ const AboutInfo = (props) => {
             <div className="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Hi, I'm Shefy Ane Abraham</h3>
               <h2>A Fullstack Developer based in India.</h2>
+              <p>Hello! My name is Shefy and I love taking on challenges and finding innovative solutions.
+                I'm not just a developer - I'm a problem solver, a creative thinker, and a versatile technophile.
+              </p>
               <p>
-                My job involves doing what I love, developing new websites and applications. I have experience building rich web applications and software from the scratch.
-                I’ve always sought out opportunities and challenges that are meaningful to me.
-                I absolutely love learning new things and taking on new challenges.
-                Currently, I'm working as a Software Developer for Khoros, India.
+                I’ve always sought out opportunities and challenges that are meaningful to me. 
+                Therefore, I’ve had the privilege of working at a huge corporation, a start-up, as well as a customer engagement software company.
+              </p>
+              <p>
+                I have experience developing multiple SaaS solutions both from scratch and by customizing existing platforms. 
+                Currently, I'm working as a Software Developer at Khoros, India.
               </p>
               <p>
                 Wanna know more? A more detailed look at my professional capabilities and experience is available below.

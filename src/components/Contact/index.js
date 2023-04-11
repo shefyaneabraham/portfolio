@@ -7,7 +7,7 @@ const Contact = (props) => {
     document.getElementById('loading').style.display = "block";
     document.getElementById('sent-message').style.display = "none";
     document.getElementById('error-message').style.display = "none";
-    emailjs.sendForm('service_7546ifs', 'template_zhcgkgk', e.target, 'user_1p06fNIzCxsM5ONwGr0mT')
+    emailjs.sendForm('service_i0k4b27', 'template_zhcgkgk', e.target, 'user_1p06fNIzCxsM5ONwGr0mT')
       .then((result) => {
         document.getElementById('loading').style.display = "none";
         document.getElementById('sent-message').style.display = "block";
@@ -50,20 +50,20 @@ const Contact = (props) => {
             <form className="php-email-form" onSubmit={sendEmail}>
               <div className="form-row">
                 <div className="col-md-6 form-group">
-                  <input type="text" name="from_name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="from_name" className="form-control" id="name" placeholder="Your Name" data-rule="required" data-msg="Please enter at least 4 chars" required />
                   <div className="validate" />
                 </div>
                 <div className="col-md-6 form-group">
-                  <input type="email" className="form-control" name="reply_to" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" className="form-control" name="reply_to" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
                   <div className="validate" />
                 </div>
               </div>
               <div className="form-group">
-                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
                 <div className="validate" />
               </div>
               <div className="form-group">
-                <textarea className="form-control" name="message" rows={5} data-rule="required" data-msg="Please write something for us" placeholder="Message" defaultValue={""} />
+                <textarea className="form-control" name="message" rows={5} data-rule="required" data-msg="Please write something for us" placeholder="Message" defaultValue={""} required />
                 <div className="validate" />
               </div>
               <div className="mb-3">

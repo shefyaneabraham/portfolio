@@ -66,7 +66,7 @@ const Header = (props) => {
                 }}
                 onClick={() => closeMenu()}
                 exact
-              ><i className="bx bx-book-content" /> <span>Portfolio</span></NavLink>
+              ><i className="bx bx-book-content" /> <span>Projects</span></NavLink>
             </li>
             <li>
               <NavLink to="/contact"
