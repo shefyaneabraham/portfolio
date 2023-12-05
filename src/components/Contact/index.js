@@ -32,7 +32,7 @@ const Contact = (props) => {
               <div className="address">
                 <i className="icofont-google-map" />
                 <h4>Location:</h4>
-                <p>Bengaluru, India</p>
+                <p>Toronto, Canada</p>
               </div>
               <div className="email">
                 <i className="icofont-envelope" />

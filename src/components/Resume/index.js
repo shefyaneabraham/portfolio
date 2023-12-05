@@ -17,7 +17,7 @@ const Resume = (props) => {
               <p><em>Innovative and self-driven professional with a flair for creating elegant and cost-effective solutions in
                 a fast-paced environment. </em></p>
               <ul>
-                <li>Bengaluru, India</li>
+                <li>Toronto, Canada</li>
 
                 <li>shefyaneabraham@gmail.com</li>
               </ul>
